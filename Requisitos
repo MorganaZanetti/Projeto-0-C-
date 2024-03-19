@@ -1,0 +1,15 @@
+---> O que o programa deve ser capaz de fazer:
+
+Requisitos
+  O projeto deve ser desenvolvido em C;
+  O programa deve ser capaz de armazenar até 100 tarefas;
+  O usuário deve poder criar, deletar, listar todas as tarefas;
+  Os dados das tarefas devem ser armazenados em arquivos binários usando funções para armazenar os dados em arquivos binários (fread e fwrite);
+
+Formato dos dados
+  Um array de struct contendo:
+  Prioridade da tarefa (valor inteiro entre 0 e 10);
+  Descrição da tarefa (array de char de até 300 letras);
+  Categoria (array de char de até 100 letras);
+
+OBS: Quanto maior o valor, maior a prioridade da tarefa.
