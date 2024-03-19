@@ -12,4 +12,9 @@ Formato dos dados
   Descrição da tarefa (array de char de até 300 letras);
   Categoria (array de char de até 100 letras);
 
-OBS: Quanto maior o valor, maior a prioridade da tarefa.
+Limitações
+  Não será permitido o uso de bibliotecas além do que já é oferecido no momento da instalação.
+
+
+OBS1: Quanto maior o valor, maior a prioridade da tarefa.
+OBS2: A compilação e execução serão realizadas no replit e será avaliado o funcionamento do programa no ambiente fornecido pelo serviço;
