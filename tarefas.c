@@ -47,11 +47,33 @@ Erro listar (Tarefa t[], int pos){
 }
 
 Erro salvar (Tarefa t[], int pos, int tamanho){
-  printf("\nFunção salvar tarefa\n");
+  FILE *f = fopen("tarefas", "wb");
+  if (f==NULL)
+    return ABRIR;
+  int i = fwrite(t, tamanho, sizeof(Tarefa), f);
+  if (i==0)
+    return ESCREVER;
+  i = fwrite(&pos, 1, sizeof(int), f);
+  if (i==0)
+    return ESCREVER;
+  i = fclose(f);
+  if(i!=0)
+    return FECHAR;
   return OK;
 }
-Erro carregar (Tarefa t[], int pos, int tamanho){
-  printf("\nFunção carregar tarefas\n");
+Erro carregar (Tarefa t[], int *pos, int tamanho){
+  FILE *f = fopen("tarefas", "rb");
+  if (f==NULL)
+    return ABRIR;
+  int i = fread(t, tamanho, sizeof(Tarefa), f);
+  if(i<=0)
+    return LER;
+  i = fread(pos, 1, sizeof(int), f);
+  if(i<=0)
+    return LER;
+  i = fclose(f);
+  if (i!=0)
+    return FECHAR;
   return OK;
 }
 
