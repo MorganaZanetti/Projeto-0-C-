@@ -15,10 +15,10 @@ int main() {
     scanf("%d", &opcao);
     printf("Opção escolhida: %d\n", opcao);
     if (opcao == 1){
-      criar(tarefas, pos);
+      criar(tarefas, &pos);
     }
     else if (opcao == 2){
-      deletar(tarefas, pos);
+      deletar(tarefas, &pos);
     }
     else if (opcao == 3){
       listar(tarefas, pos);
