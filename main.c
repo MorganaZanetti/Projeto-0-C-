@@ -9,6 +9,9 @@ int main() {
   if(e== ABRIR || e == LER || e == FECHAR){
     pos = 0;
     printf("Erro ao carregar tarefas.\n");
+  } else if (e == LER || e == FECHAR){
+    pos = 0
+    printf("Erro ao ler as tarefas do arquivo\n");
   }
   do{
     printf("\nMenu principal\n");
