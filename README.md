@@ -47,4 +47,4 @@ O código:
 Observação:
   1. Com excessão da função listar clientes, que mostra todos os clientes cadastrados em forma de lista, as outras funções foram projetadas de modo em que sejam executadas
 individualmente para cada cliente.
-  2. O usuário só paga tarifa ao utilizar a função de débito.
+  2. O usuário só paga tarifa ao utilizar a função de débito..
