@@ -6,7 +6,7 @@ Introdução:
 Desenvolvedores:
   Marcelo Boalento do Nascimento – R.A.: 24.123.078-9
   Morgana Rodrigues Zanetti – R.A.: 24.223.010-0
-  Orlando Nagrockis Bertholdo – R.A.: 24.223.003-5
+  Orlando Nagrockis Bertholdo – R.A.: 24.223.003-5.
 
 Funcionamento:
   Ao compilar (iniciar) o programa, um menu contendo 7 opções é fornecido aousuário, sendo as opções:
