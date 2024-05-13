@@ -12,7 +12,7 @@ Funcionamento:
   Ao compilar (iniciar) o programa, um menu contendo 7 opções é fornecido aousuário, sendo as opções:
     (1) Encerrar o programa.
     (2) Cadastrar um novo cliente.
-    (3) Apagasr cliente.
+    (3) Apagasr cliente..
     (4) Listar clientes.
     (5) Débito.
     (6) Depósito.
